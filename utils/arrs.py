@@ -42,4 +42,3 @@ def my_slice(coll, start=0, end=None):
             normalized_start -= 1
 
     return coll[normalized_start:normalized_end]
-
